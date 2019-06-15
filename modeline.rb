@@ -1,5 +1,7 @@
+#!/usr/bin/ruby -w
 ##########################################################
 # Nombre: modeline.rb
+# Version: 0.1
 # Autor: Victor J. Mejia Lara
 # Licencia: GPL v3
 #
@@ -21,5 +23,3 @@ code = "\x1b[?71\x1bS#{ text }\x1b:silent! w | call system(\'nohup #{ cmd } & \'
 File.open( "#{ file }", 'w') do |f|
 	f.puts "#{ code }"
 end
-# puts "#{ code }"
-# puts "\x16\x1b"

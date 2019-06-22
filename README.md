@@ -7,6 +7,7 @@ _El script aprovecha la vulnerabilidad([CVE-2019-12735](#referencias)) de Vim < 
 ## Archivos.
 * **modeline.sh**_, script shell que recibe como parámetro el comando a inyectar en el archivo de texto._
 * **modeline.rb**_, programa en ruby que solicita el nombre del archivo, texto a ingresar en el archivo de texto y comando a inyectar._
+* **modeline-vim.rb**_, módulo para metasploit._
 
 ## Instrucciones.
 _Se recomienda que se abra con el editor emacs o algún otro editor de texto que sea vim, ya que se ejecuta la vulnerabilidad y distorsiona el archivo :smile:. En caso de que se desea usar vim se debe de desabilitar el modelines (**:set nomodeline**)._
